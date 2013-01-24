@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+	<div id="pageWrapper">@* necessary for sticky footer, delete this container if changed *@
+		<div id="header">
+			<div id="headerContent">
+				<div id="headerSocial">
+					<img src="Content/images/layout/facebook-logo.png" title="Connect with us on Facebook" height="41" width="41" />
+				</div>
+				<div id="logoContainer">
+					<div id="logo">
+						<img src="@Url.Content("~/Content/images/layout/1M-logo.png")" title="1Mission" height="73" width="385" />
+						<img src="@Url.Content("~/Content/images/layout/logo-reflection.png")" title="1Mission" height="46" width="385" />
+					</div>
+				</div>
+				<div id="account">
+				 <span>
+					 <a>Log In</a> | 
+					 <a>Create Account</a> 
+				 </span>
+				</div>
+			</div>
+			<div id="nav">
+				<div id="menuContainer">
+					<a href="WhoWeAre" id="firstLink">WHO WE ARE</a>
+					<a href="WhatWeDo">WHAT WE DO</a>
+					<a href="GetInvolved">GET INVOLVED</a>
+					<a href="Donate">DONATE</a>
+					<a href="Store">STORE</a>
+					<a href="My1Mission" id="lastLink">MY1MISSION</a>
+					<span class="stretch"></span>@* necessary to keep the width of the container at 100% *@
+				</div>
+			</div>
+		</div>
+		<div id="content">
+			@RenderBody()
+		</div>
+		<div id="padder"></div>@* necessary for the sticky footer. delete if not using *@
+	</div>
+	<div id="footer">
+		<div id="footerContent" class="group">
+			<input type="button" id="donate" class="command left" value="DONATE" />
+			<div class="footer-divider left"></div>
+			<div id="contact" class="left">
+				<input type="button" id="contactUs" class="footer-button command" value="CONTACT US" />
+				<div>
+					<img src="@Url.Content("~/Content/images/layout/facebook-logo.png")" title="Connect with us on Facebook!" height="36" width="36"/>
+					<img src="@Url.Content("~/Content/images/layout/twitter-logo.png")" title="Connect with us on Twitter!" height="36" width="36"/>
+					<img src="@Url.Content("~/Content/images/layout/vimeo-logo.png")" title="Connect with us on Vimeo!" height="36" width="36"/>
+				</div>
+			</div>
+			<div class="footer-divider left"></div>
+			<div id="news" class="left">
+				<input type="button" class="footer-button command" value="GET OUR eNEWS" /><br>
+				<input type="text" id="enewsEmail" placeholder="Email Address >" />@* need to implement a placeholder fix 
+				for unsupported browsers *@
+			</div>
+		</div>
+	</div>
+    @Scripts.Render("~/bundles/jquery")
+    @RenderSection("scripts", false)
+</body>
+</html>

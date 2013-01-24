@@ -1,0 +1,396 @@
+html {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font: 12px arial, verdana #000;
+	background: #e6e6e6;
+	height: 100%;
+	font: 12px arial, verdana;
+}
+
+body a {
+	text-decoration: none;
+}
+
+h1 {
+	font: bold 30px arial, verdana;
+	color: #333;
+}
+
+/* delete this and corresponding html div if you do not want 
+a sticky footer */
+#pageWrapper { 
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -150px; /* neg value of footer's height */
+}
+
+/* Header
+-----------------------------------------------------------*/
+#header {
+	position: relative;
+	height: 220px;
+	width: 100%;
+	min-width: 967px;
+	background: #333;
+}
+
+#headerContent {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+#headerSocial {
+	margin: 60px 0 0 5px;
+	max-width: 300px;
+	width: 24%;
+	float: left;
+}
+
+#logoContainer {
+	max-width: 600px;
+	width: 50%;
+	float: left;
+	padding: 40px 0 0 0;
+}
+
+#logo {
+	margin: 0 auto;
+	width: 385px;
+}
+
+#account {
+	margin: 75px 5px 0 0;
+	max-width: 300px;
+	width: 24%;
+	float: left;
+}
+
+#account span {
+	float: right;
+	color: #fff;
+	font: 12px arial, verdana;
+}
+
+#nav {
+	position: absolute;
+	bottom: 0;
+	height: 56px;
+	width: 100%;
+}
+
+#menuContainer {
+	max-width: 1190px;
+	margin: 0 auto;
+	text-align: justify; /* center the anchor tags horizontally and equally */
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+}
+
+/* make sure any items in the menu have display: inline-block for text-align: 
+justify to affect them */
+#menuContainer a {
+	margin: 5px 0 0 0;
+	display: inline-block;
+	*display: inline; /* for IE6 */
+    zoom: 1;
+    color: #fff;
+    font: bold 24px arial, verdana;
+}
+
+#menuContainer a:hover {
+    color: #8dc63f;
+}
+
+#menuContainer #firstLink {
+	margin-left: 5px;
+}
+
+/* my1mission styling */
+#menuContainer #lastLink {
+	padding: 5px 9px 5px 35px;
+	height: 41px;
+	background: #8cc63e url(images/layout/my1mission-border.png) no-repeat left;
+	color: #fff;
+}
+
+.stretch {
+    width: 100%;
+    display: inline-block;
+	*display: inline; /* for IE6 */
+    zoom: 1;
+    font-size: 0;
+    line-height: 0
+}
+
+/* Body
+-----------------------------------------------------------*/
+#content {
+	margin: 0 auto;
+	min-width: 967px;
+	max-width: 1200px;
+}
+
+#progress {
+	background: url(images/home/world-bg.png) no-repeat;
+	padding: 0 0 50px 0;
+}
+
+#progressDescription{
+	width: 967px;
+	margin: 0 auto;
+	padding: 20px 0 10px;
+	
+}
+
+/* brings the "learn more" link into line with the rest of 
+the content */
+#progressDescription a { 
+	margin: 0 15px 0 0;
+}
+
+#videoSpotlight {
+	width: 967px;
+	margin: 15px auto 30px;
+}
+
+#waysToContribute {
+	margin: 40px 0 0 0;
+	list-style: none;
+}
+
+#waysToContribute li {
+	margin: 30px 0 0 80px;
+	text-align: center;
+}
+
+#statistics{
+	width: 550px;
+	margin: 40px auto 0;
+}
+
+.statistic-column {
+    position: relative;
+	margin: 20px 0 0 0;
+	text-align: center;
+}
+
+.statistic-column img {
+	margin: 0 0 0 10px;
+}
+
+.statistic {
+	font: bold 36px arial, verdana;
+	color: #333;
+}
+
+.statistic-description {
+	margin: 0 20px 0 0;
+}
+
+.statistic-information {
+    position: absolute;
+    top: -60px;
+    right: 2px;
+    width: 200px;
+    padding: 5px;
+    color: #fff;
+    background: #000;
+    opacity: .5;
+}
+
+/* bring the first popup closer to statistic */
+.statistic-information.push-right {
+    right: -15px;
+}
+
+.highlight-link {
+	font: 14px arial, verdana;
+	color: #8dc63f;
+}
+
+#helpNow {
+	min-width: 967px;
+	max-width: 967px;
+	margin: 0 auto 60px;
+	
+}
+
+#waysToHelp {
+	width: 370px;
+	margin: 0 0 0 50px;
+	padding: 70px 0 0;
+}
+
+#helpNowDonateButton {
+	margin: 50px 30px 0 0;
+}
+
+#helpNowCampaignButton {
+	margin: 50px 0 0;
+}
+
+.large-h-divider {
+	min-width: 967px;
+	max-width: 1200px;
+	height: 2px;
+	background: url(images/large-h-divider.png) repeat-x;
+}
+
+.large-v-divider {
+	width: 2px;
+	height: 225px;
+	margin: 0 80px;
+	background: url(images/large-v-divider.png) repeat-y;
+}
+
+.small-v-divider {
+	width: 2px;
+	height: 100px;
+	margin: 0 20px;
+	background: url(images/small-v-divider.png) repeat-y;
+}
+
+/* probably needs to be refactored. resets left margin for the 
+second divider. */
+.small-v-divider.no-left-margin {
+	margin: 0 20px 0 0;
+}
+
+/* Buttons
+-----------------------------------------------------------*/
+.footer-button {
+	border-radius: 6px;
+	background: #555;
+	border: 0;
+	color: #fff;
+	font: bold 18px arial, verdana;
+	width: 240px;
+	height: 40px;
+}
+
+.help-now-button {
+	width: 155px;
+	height: 46px;
+	background: url(images/gradients/red-button-bg.png) repeat-x;
+	border: 0;
+	border-radius: 3px;
+	color: #fff;
+	font: bold 18px arial, verdana;
+}
+
+#donate {
+	display: block;
+	margin: 10px 0 0 0;
+	width: 240px;
+	height: 80px;
+	border-radius: 5px;
+	border: 0;
+	text-align: center;
+	color: #fff;
+	font: bold 22px arial, verdana;
+	background: url(images/gradients/donate-bg.png);
+}
+
+/* Footer
+-----------------------------------------------------------*/
+/* padder gives a buffer for sticky footer. delete this and 
+padder div if you do not want a sticky footer */
+#footer, #padder { 
+	height: 150px;
+}
+
+#footer {
+	width: 100%;
+	background: #333;
+}
+
+#footerContent{
+	padding: 10px 0 0 0;
+	width: 842px;
+	margin: 0 auto;
+}
+
+#contact {
+	margin: 10px 0 0 0;
+}
+
+#contact > div {
+	width: 116px;
+	margin: 10px auto 0;
+}
+
+#news {
+	margin: 10px 0 0 0;
+}
+
+.footer-divider {
+	margin: 10px 30px 0;
+	width:1px;
+	height: 80px;
+	background: url(images/layout/footer-divider.png) no-repeat;
+}
+
+#enewsEmail {
+	width: 226px;
+	border: 0;
+	outline: 0;
+	border-radius: 2px;
+	background: #555;
+	padding: 7px;
+	margin: 10px 0 0 0;
+	text-align: center;
+	color: #fff;
+}
+
+/* Misc.
+-----------------------------------------------------------*/
+.hidden {
+    display: none;
+}
+
+.right {
+	float: right;
+}
+
+.left {
+	float: left;
+}
+
+.center-text {
+	text-align: center;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.command {
+	cursor: pointer;
+}
+
+.green-gradient {
+	background-color: #8bc143; 
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#daecc1), to(#8cc63f));
+    background-image: -webkit-linear-gradient(top, #daecc1, #8cc63f); 
+    background-image:    -moz-linear-gradient(top, #daecc1, #8cc63f);
+    background-image:     -ms-linear-gradient(top, #daecc1, #8cc63f);
+    background-image:      -o-linear-gradient(top, #daecc1, #8cc63f);
+}
+
+/* Clearfix
+-----------------------------------------------------------*/
+.group:after 
+{
+	visibility: hidden;
+	display: block;
+	content: "";
+	clear: both;
+	height: 0;
+}
+* html .group             { zoom: 1; } /* IE6 */
+*:first-child+html .group { zoom: 1; } /* IE7 */

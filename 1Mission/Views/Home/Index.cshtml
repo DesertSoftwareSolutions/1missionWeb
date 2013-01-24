@@ -1,0 +1,82 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<div id="progress">
+	<div id="progressDescription">
+		We're a non-profit empowering people living in poverty to earn a home by serving
+		in their community, fueling life transformation and community development. A group
+		of private donors fund our U.S. administration costs, so that 100% of public donations
+		go directly to our field programs.<br>
+		<a href="LearnMore" class="highlight-link right">LEARN MORE ></a>
+	</div>
+	<div id="videoSpotlight" class="group">
+		<div class="left"><img src="@Url.Content("~/Content/images/home/video-mockup.png")" title="Our video" /></div>
+		<div class="large-v-divider left"></div>
+		<div class="left">
+			<ul id="waysToContribute">
+				<li>Campaign for a house</li>
+				<li>Pledge your birthday</li>
+				<li>Go on a trip</li>
+				<li>Find us on Facebook</li>
+			</ul>
+		</div>
+	</div>
+	<h1 class="center-text">OUR PROGRESS SO FAR...</h1>
+	<div id="statistics" class="group">
+		<div class="statistic-column left">
+            <div class="statistic-information push-right hidden">
+                Includes houses built by trip paricipants
+                and locals in the field
+            </div>
+			<span class="statistic">147</span><img class="show-more" src="@Url.Content("~/Content/images/more-info-icon.png")" title="More info" height="20" width="20"/><br>
+			<span class="statistic-description">Houses built</span>
+		</div>
+		<div class="small-v-divider left"></div>
+		<div class="statistic-column left">
+            <div class="statistic-information hidden">
+                Volunteers who traveled to Mexico
+                to help build a home
+            </div>
+			<span class="statistic">3,265</span><img class="show-more" src="@Url.Content("~/Content/images/more-info-icon.png")" title="More info" height="20" width="20"/><br>
+			<span class="statistic-description">Participants on house built trips</span>
+		</div>
+		<div class="small-v-divider no-left-margin left"></div>
+		<div class="statistic-column left">
+            <div class="statistic-information hidden">
+                Each family serves their community
+                before receiving a home.
+            </div>
+			<span class="statistic">29,850</span><img class="show-more" src="@Url.Content("~/Content/images/more-info-icon.png")" title="More info" height="20" width="20"/><br>
+			<span class="statistic-description">Hours served by home recipients</span>
+		</div>
+	</div>
+</div>
+			
+<div class="large-h-divider"></div>
+			
+<div id="helpNow" class="group">
+	<h1 class="center-text">HELP A FAMILY RIGHT NOW:</h1>
+	<div class="left">
+		<img src="@Url.Content("~/Content/images/layout/broken-house.png")" title="House made of trash" height="261" width="450" />
+	</div>
+	<div id="waysToHelp" class="right">
+		<span>
+			One billion people live in houses made of trash. <span class="bold">You can help.</span>
+			100% of every dollar goes to programs in the field.
+		</span><br>
+		<input id="helpNowDonateButton" class="help-now-button command" type="button" value="DONATE" />
+		<input id="helpNowCampaignButton" class="help-now-button command" type="button" value="CAMPAIGN" />
+	</div>
+</div>
+
+@section scripts{
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".show-more").hover(function () {
+                $(this).parent("div").children(".statistic-information").toggle();
+            });
+        });
+    </script>
+}
+			
