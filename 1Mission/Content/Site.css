@@ -16,6 +16,13 @@ body a {
 }
 
 h1 {
+    font: bold 64px arial, verdana;
+    padding: 0;
+    margin: 0;
+    color: #8dc63f;
+}
+
+h2 {
 	font: bold 30px arial, verdana;
 	color: #333;
 }
@@ -234,6 +241,64 @@ the content */
 	margin: 50px 0 0;
 }
 
+#foundersStory {
+    padding: 20px 5px 20px;
+}
+
+#foundersStory > img {
+    padding: 0 0 5px 5px;
+}
+
+#whoWeAre {
+    padding: 15px 0 40px;
+}
+
+#whoWeAre > h2 {
+    font: bold 32px arial, verdana;
+    color: #8dc63f;
+}
+
+.about-tab {
+    background: #b7b7b7;
+    height: 120px;
+    width: 80%;
+    margin: 10px auto;
+}
+
+.about-tab:hover {
+    background: #8dc63f;
+}
+
+.about-tab-logo {
+    border-right: 2px solid #fff;
+}
+
+.about-tab-logo.founder {
+    padding: 0 30px 0 0;
+    margin: 20px 0 0 20px;
+}
+
+.about-tab-logo.staff {
+    padding: 0 35px 0 0;
+    margin: 20px 0 0 40px;
+}
+
+.about-tab-logo.finances {
+    padding: 0 65px 0 0;
+    margin: 20px 0 0 70px;
+}
+
+.about-tab-logo.events {
+    padding: 0 75px 0 0;
+    margin: 20px 0 0 80px;
+}
+
+.about-tab-label {
+    margin: 50px 0 0 20px;
+    color: #fff;
+    font: bold 18px arial, verdana;
+}
+
 .large-h-divider {
 	min-width: 967px;
 	max-width: 1200px;
@@ -367,6 +432,10 @@ padder div if you do not want a sticky footer */
 
 .bold {
 	font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
 }
 
 .command {

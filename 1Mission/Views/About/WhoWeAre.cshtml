@@ -1,0 +1,45 @@
+﻿@{
+    ViewBag.Title = "Who We Are";
+}
+
+<div id="whoWeAre">
+    <h2 class="center-text">WHO WE ARE</h2>
+
+    <a href="@Url.Action("MeetTheFounder", "About")">
+        <div class="about-tab group">
+            <div class="about-tab-logo founder left">
+                <img src="@Url.Content("~/Content/images/founder-icon.png")" title="Meet the founder" />
+            </div>
+            <div class="about-tab-label left">
+                MEET THE FOUNDER
+            </div>
+        </div>
+    </a>
+
+    <div class="about-tab group">
+        <div class="about-tab-logo staff left">
+            <img src="@Url.Content("~/Content/images/staff-icon.png")" title="Meet the team" />
+        </div>
+        <div class="about-tab-label left">
+            MEET THE TEAM
+        </div>
+    </div>
+
+    <div class="about-tab group">
+        <div class="about-tab-logo finances left">
+            <img src="@Url.Content("~/Content/images/finances-icon.png")" title="Finances & transparency" />
+        </div>
+        <div class="about-tab-label left">
+            FINANCES & TRANSPARENCY
+        </div>
+    </div>
+
+    <div class="about-tab group">
+        <div class="about-tab-logo events left">
+            <img src="@Url.Content("~/Content/images/events-icon.png")" title="Events" />
+        </div>
+        <div class="about-tab-label left">
+            EVENTS
+        </div>
+    </div>
+</div>

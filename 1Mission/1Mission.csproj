@@ -122,6 +122,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\AboutController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -129,6 +130,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\images\events-icon.png" />
+    <Content Include="Content\images\finances-icon.png" />
+    <Content Include="Content\images\founder-icon.png" />
+    <Content Include="Content\images\founder.jpg" />
     <Content Include="Content\images\gradients\donate-bg.png" />
     <Content Include="Content\images\gradients\red-button-bg.png" />
     <Content Include="Content\images\home\video-mockup.png" />
@@ -145,6 +150,7 @@
     <Content Include="Content\images\layout\vimeo-logo.png" />
     <Content Include="Content\images\more-info-icon.png" />
     <Content Include="Content\images\small-v-divider.png" />
+    <Content Include="Content\images\staff-icon.png" />
     <Content Include="Content\images\v-divider.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
@@ -230,6 +236,8 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\About\MeetTheFounder.cshtml" />
+    <Content Include="Views\About\WhoWeAre.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
