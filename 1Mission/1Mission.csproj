@@ -135,6 +135,7 @@
     <Content Include="Content\images\founder-icon.png" />
     <Content Include="Content\images\founder.jpg" />
     <Content Include="Content\images\gradients\donate-bg.png" />
+    <Content Include="Content\images\gradients\main-bg.jpg" />
     <Content Include="Content\images\gradients\red-button-bg.png" />
     <Content Include="Content\images\home\video-mockup.png" />
     <Content Include="Content\images\home\world-bg.png" />
