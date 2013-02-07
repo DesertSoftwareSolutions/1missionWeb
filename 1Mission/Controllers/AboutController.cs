@@ -26,6 +26,11 @@ namespace _1Mission.Controllers
             return View();
         }
 
+        public ActionResult Staff()
+        {
+            return View();
+        }
+
         public ActionResult Index()
         {
             return View();

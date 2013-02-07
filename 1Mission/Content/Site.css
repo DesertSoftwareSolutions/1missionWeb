@@ -479,6 +479,40 @@ padder div if you do not want a sticky footer */
     width: 100%;
 }
 
+#staffProfiles {
+    margin: 50px auto 0;
+}
+
+.staff-profile {
+    margin: 0 0 40px 0;
+}
+
+.staff-image {
+    height: 275px;
+    width: 415px;
+    border: 1px dashed #000;
+    border-radius: 5px;
+}
+
+.staff-description {
+    width: 415px;
+}
+
+.staff-name {
+    font: bold 16px arial, verdana;
+    color: #8dc63f;
+}
+
+.staff-title {
+    font: bold 11px arial, verdana;
+    color: #000;
+}
+
+.staff-bio {
+    margin: 10px 0 0 0;
+    font: 14px arial, verdana;
+}
+
 /* Misc.
 -----------------------------------------------------------*/
 .header-label {

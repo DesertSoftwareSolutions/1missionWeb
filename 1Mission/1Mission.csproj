@@ -242,6 +242,7 @@
     <Content Include="Views\About\MeetTheFounder.cshtml" />
     <Content Include="Views\About\WhoWeAre.cshtml" />
     <Content Include="Views\About\Financials.cshtml" />
+    <Content Include="Views\About\Staff.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
