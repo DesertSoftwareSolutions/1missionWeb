@@ -21,6 +21,11 @@ namespace _1Mission.Controllers
             return View();
         }
 
+        public ActionResult Financials()
+        {
+            return View();
+        }
+
         public ActionResult Index()
         {
             return View();

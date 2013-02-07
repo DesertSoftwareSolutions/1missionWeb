@@ -1,0 +1,35 @@
+﻿@{
+    ViewBag.Title = "Finances & Transparency";
+}
+
+<h1 class="center-text header-label">FINANCES AND TRANSPARENCY</h1>
+
+<div class="main-width" id="financeDescription">
+    One of our core values is stewardship and we take that very seriously. That’s why we send 100% 
+    of public donations to programs in the field. We want you to know that your dollars are making 
+    the biggest impact possible. From the beginning, we set out to fight poverty and to reinvent the 
+    way charity is done. All of our financial documents are on this page, there’s no back room full 
+    of “internal” documents, this is it. Whether you are a donor, a supporter, or a just a friend of 
+    1MISSION, we’d like to thank you for joining us on this journey.
+</div>
+
+<div class="main-width group" id="financeInformation">
+    <div class="left">
+        <img src="@Url.Content("~/Content/images/finances/chart.png")" title="Finances" />
+    </div>
+    <div class="right" id="recentFinances">
+        <div><span id="recentFinancesTitle">Check out the 2011 Annual Report</span></div>
+        <div>
+            <span id="recentFinancesDescription">
+                See our progress, read some stories, and check out the events that made 2011
+                such a remarkable year for 1MISSION.
+            </span>
+        </div>
+        <input type="button" value="DOWNLOAD THE ANNUAL REPORT" id="recentFinancesButton"/>
+    </div>
+    <div class="left" id="downloadFinances">
+        <div class="download-finance-button left first"><img src="@Url.Content("~/Content/images/pdf-icon.png")" title="PDF" class="left" border="0"/><div>501(c)3 Ruling</div></div>
+        <div class="download-finance-button left"><img src="@Url.Content("~/Content/images/pdf-icon.png")" title="PDF" class="left" border="0"/><div>2010 Annual Report</div></div>
+        <div class="download-finance-button right"><div>990 Tax Forms - Email Us</div></div>
+    </div>
+</div>

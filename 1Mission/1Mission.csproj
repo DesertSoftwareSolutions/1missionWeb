@@ -132,6 +132,7 @@
   <ItemGroup>
     <Content Include="Content\images\events-icon.png" />
     <Content Include="Content\images\finances-icon.png" />
+    <Content Include="Content\images\finances\chart.png" />
     <Content Include="Content\images\founder-icon.png" />
     <Content Include="Content\images\founder.jpg" />
     <Content Include="Content\images\gradients\donate-bg.png" />
@@ -150,6 +151,7 @@
     <Content Include="Content\images\layout\twitter-logo.png" />
     <Content Include="Content\images\layout\vimeo-logo.png" />
     <Content Include="Content\images\more-info-icon.png" />
+    <Content Include="Content\images\pdf-icon.png" />
     <Content Include="Content\images\small-v-divider.png" />
     <Content Include="Content\images\staff-icon.png" />
     <Content Include="Content\images\v-divider.png" />
@@ -239,6 +241,7 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\About\MeetTheFounder.cshtml" />
     <Content Include="Views\About\WhoWeAre.cshtml" />
+    <Content Include="Views\About\Financials.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
