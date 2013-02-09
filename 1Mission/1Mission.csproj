@@ -155,6 +155,22 @@
     <Content Include="Content\images\small-v-divider.png" />
     <Content Include="Content\images\staff-icon.png" />
     <Content Include="Content\images\v-divider.png" />
+    <Content Include="Content\images\what_we_do\church.png" />
+    <Content Include="Content\images\what_we_do\community-development.png" />
+    <Content Include="Content\images\what_we_do\cooperation.png" />
+    <Content Include="Content\images\what_we_do\donation-percent.png" />
+    <Content Include="Content\images\what_we_do\economic-impact.png" />
+    <Content Include="Content\images\what_we_do\exchange.png" />
+    <Content Include="Content\images\large-h-divider-dark.png" />
+    <Content Include="Content\images\what_we_do\house.png" />
+    <Content Include="Content\images\what_we_do\literature.png" />
+    <Content Include="Content\images\what_we_do\one-in-eight.jpg" />
+    <Content Include="Content\images\what_we_do\rounded-border-bottom.png" />
+    <Content Include="Content\images\what_we_do\rounded-border-left.png" />
+    <Content Include="Content\images\what_we_do\rounded-border-right.png" />
+    <Content Include="Content\images\what_we_do\wheelbarrow.png" />
+    <Content Include="Content\images\what_we_do\why-houses.png" />
+    <Content Include="Content\images\what_we_do\world.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
@@ -243,6 +259,7 @@
     <Content Include="Views\About\WhoWeAre.cshtml" />
     <Content Include="Views\About\Financials.cshtml" />
     <Content Include="Views\About\Staff.cshtml" />
+    <Content Include="Views\About\WhatWeDo.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

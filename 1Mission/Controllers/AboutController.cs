@@ -11,6 +11,11 @@ namespace _1Mission.Controllers
         //
         // GET: /About/
 
+        public ActionResult WhatWeDo()
+        {
+            return View();
+        }
+
         public ActionResult WhoWeAre()
         {
             return View();

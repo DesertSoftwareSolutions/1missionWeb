@@ -305,6 +305,13 @@ the content */
 	background: url(images/large-h-divider.png) repeat-x;
 }
 
+.large-h-divider-dark {
+    min-width: 967px;
+    max-width: 1200px;
+    height: 2px;
+    background: url(images/large-h-divider-dark.png) repeat-x;
+}
+
 .large-v-divider {
 	width: 2px;
 	height: 225px;
@@ -331,6 +338,232 @@ second divider. */
     padding: 0;
     margin: 0;
     color: #8dc63f;
+}
+
+#oneInEight {
+    width: 967px;
+    margin: 50px auto 0;
+}
+
+#oneInEight img {
+    margin: 0 auto 40px;
+}
+
+#ourImpact {
+    width: 967px;
+    margin: 10px auto 20px;
+}
+
+.impact-highlight {
+    margin: 10px 0 0 0;
+    width: 440px;
+    height: 300px;
+}
+
+.impact-icon {
+    margin: 0 auto;
+}
+
+#whyHouses .impact-icon {
+    width: 111px;
+}
+
+#genuineExchange .impact-icon {
+    margin-top: 9px;
+    width: 189px;
+}
+
+#communityDevelopment .impact-icon {
+    width: 110px;
+}
+
+#economicImpact .impact-icon {
+    width: 137px;
+}
+
+.impact-title {
+    margin: 5px auto 0;
+    font: bold 22px arial, verdana;
+    color: #8dc63f;
+}
+
+#whyHouses .impact-title {
+    width: 152px;
+}
+
+#genuineExchange .impact-title {
+    width: 231px;
+}
+
+#communityDevelopment .impact-title {
+    width: 309px;
+}
+
+#economicImpact .impact-title {
+    width: 208px;
+}
+
+.impact-description {
+    margin: 10px 0 0 0;
+    font: 16px arial, verdana;
+}
+
+#hoursServedTopBorder {
+    width: 967px;
+    margin: 0 auto;
+}
+
+#hoursServed {
+    width: 967px;
+    margin: 0 auto;
+}
+
+#hoursServedLeft {
+    background: url(images/what_we_do/rounded-border-left.png) no-repeat;
+    width: 307px;
+    height: 30px;
+    margin: 20px 0 0 0;
+}
+
+#hoursServedTitle {
+    font: bold 38px arial, verdana;
+    margin: 0 14px 0 14px;
+}
+
+#hoursServedRight {
+    background: url(images/what_we_do/rounded-border-right.png) no-repeat;
+    width: 329px;
+    height: 30px;
+    margin: 20px 0 0 0;
+}
+
+.hours-served-highlight {
+    width: 165px;
+    height: 230px;
+}
+
+.hours-served-highlight#projects {
+    margin: 0 20px 0 30px
+}
+
+.hours-served-highlight#congregations {
+    margin: 0 0 0 30px
+}
+
+.hours-served-highlight#seminars {
+    margin: 0 0 0 30px
+}
+
+.hours-served-highlight#homes {
+    margin: 0 0 0 30px
+}
+
+.hours-served-highlight#cooperation {
+    margin: 0 0 0 20px
+}
+
+.hours-served-icon {
+    margin: 0 auto 10px;
+}
+
+#projects .hours-served-icon {
+    width: 128px;
+}
+
+#congregations .hours-served-icon {
+    margin-top: 4px;
+    width: 120px;
+}
+
+#seminars .hours-served-icon {
+    margin-top: 25px;
+    width: 91px;
+}
+
+#homes .hours-served-icon {
+    margin-top: 18px;
+    width: 90px;
+}
+
+#cooperation .hours-served-icon {
+    margin-top: 6px;
+    width: 51px;
+}
+
+#hoursServedBottomBorder {
+    margin: 0 auto;
+    width: 967px;
+    height: 32px;
+    background: url(images/what_we_do/rounded-border-bottom.png) no-repeat;
+}
+
+#whatWeDoQuote {
+    width: 900px;
+    margin: 40px auto;
+}
+
+#quote span {
+    font: 22px arial, verdana;
+    font-style: italic;
+    color: #00aeef;
+}
+
+#author span {
+    font: bold 12px arial, verdana;
+}
+
+#serviceDetails {
+    width: 967px;
+    margin: 0 auto;
+}
+
+#serviceDetails .large-h-divider-dark {
+    margin: 0 0 60px 0;
+}
+
+.service-highlight {
+    width: 300px;
+    height: 285px;
+}
+
+#donations {
+    margin: 0 20px 0;
+}
+
+#proof {
+    margin: 0 25px 0 0;
+}
+
+.service-icon {
+    margin: 0 auto 10px;
+}
+
+#donations.service-highlight .service-icon{
+    width: 203px;
+}
+
+#proof.service-highlight .service-icon{
+    margin-bottom: 24px;
+    width: 298px;
+}
+
+#join.service-highlight .service-icon{
+    margin-top: 30px;
+    margin-bottom: 33px;
+    width: 245px;
+}
+
+.service-description {
+    margin: 0 auto;
+    font: 14px arial, verdana;
+}
+
+#proof .service-description {
+    width: 245px;
+}
+
+#join .service-description {
+    width: 245px;
 }
 
 /* Buttons
@@ -395,6 +628,18 @@ second divider. */
 	color: #fff;
 	font: bold 22px arial, verdana;
 	background: url(images/gradients/donate-bg.png);
+}
+
+#joinUs {
+    width: 245px;
+    height: 55px;
+    color: #fff;
+    font: bold 20px arial, verdana;
+    border: 0;
+    border-radius: 5px;
+    background: #333;
+    text-align: center;
+    padding: 30px 0 0;
 }
 
 /* Footer
