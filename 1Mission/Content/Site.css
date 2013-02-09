@@ -306,7 +306,7 @@ the content */
 }
 
 .large-h-divider-dark {
-    min-width: 967px;
+    min-width: 900px;
     max-width: 1200px;
     height: 2px;
     background: url(images/large-h-divider-dark.png) repeat-x;
@@ -702,6 +702,11 @@ padder div if you do not want a sticky footer */
     width: 900px
 }
 
+#financeInformation .large-h-divider-dark {
+    width: 900px;
+    margin: 40px 0 0 0;
+}
+
 #recentFinances {
     margin: 60px 0 0 0;
     width: 380px;
@@ -720,7 +725,7 @@ padder div if you do not want a sticky footer */
 }
 
 #downloadFinances {
-    margin: 50px 0 0 0;
+    margin: 30px 0 0 0;
     width: 100%;
 }
 
@@ -778,6 +783,10 @@ padder div if you do not want a sticky footer */
 
 .left {
 	float: left;
+}
+
+.center {
+    margin: 0 auto;
 }
 
 .center-text {
