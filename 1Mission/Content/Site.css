@@ -410,7 +410,8 @@ second divider. */
 
 #hoursServedTopBorder {
     width: 967px;
-    margin: 0 auto;
+    margin: 0 auto 20px;
+    background: url(images/what_we_do/rounded-border-top.png) bottom no-repeat;
 }
 
 #hoursServed {
@@ -418,23 +419,10 @@ second divider. */
     margin: 0 auto;
 }
 
-#hoursServedLeft {
-    background: url(images/what_we_do/rounded-border-left.png) no-repeat;
-    width: 307px;
-    height: 30px;
-    margin: 20px 0 0 0;
-}
-
 #hoursServedTitle {
     font: bold 38px arial, verdana;
-    margin: 0 14px 0 14px;
-}
-
-#hoursServedRight {
-    background: url(images/what_we_do/rounded-border-right.png) no-repeat;
-    width: 329px;
-    height: 30px;
-    margin: 20px 0 0 0;
+    margin: 0 0 0 320px;
+    width: 305px;
 }
 
 .hours-served-highlight {

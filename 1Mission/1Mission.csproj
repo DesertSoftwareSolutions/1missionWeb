@@ -168,6 +168,7 @@
     <Content Include="Content\images\what_we_do\rounded-border-bottom.png" />
     <Content Include="Content\images\what_we_do\rounded-border-left.png" />
     <Content Include="Content\images\what_we_do\rounded-border-right.png" />
+    <Content Include="Content\images\what_we_do\rounded-border-top.png" />
     <Content Include="Content\images\what_we_do\wheelbarrow.png" />
     <Content Include="Content\images\what_we_do\why-houses.png" />
     <Content Include="Content\images\what_we_do\world.png" />
