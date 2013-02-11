@@ -1,4 +1,4 @@
-html {
+﻿html {
 	height: 100%;
 }
 
@@ -25,6 +25,13 @@ h1 {
 h2 {
 	font: bold 30px arial, verdana;
 	color: #333;
+}
+
+h3 {
+    font: bold 20px arial, verdana;
+	color: #333;
+    padding: 0;
+    margin: 0;
 }
 
 /* delete this and corresponding html div if you do not want 
@@ -554,6 +561,139 @@ second divider. */
     width: 245px;
 }
 
+#financeDescription {
+    margin: 40px auto 0;
+}
+
+#financeInformation {
+    margin: 20px auto 75px;
+    width: 900px
+}
+
+#financeInformation .large-h-divider-dark {
+    width: 900px;
+    margin: 40px 0 0 0;
+}
+
+#recentFinances {
+    margin: 60px 0 0 0;
+    width: 380px;
+}
+
+#recentFinances #recentFinancesTitle {
+    font: 24px arial, verdana;
+}
+
+#recentFinances #recentFinancesDescription {
+    font: 16px arial, verdana;
+}
+
+#recentFinances > * {
+    margin: 10px 0;
+}
+
+#downloadFinances {
+    margin: 30px 0 0 0;
+    width: 100%;
+}
+
+#staffProfiles {
+    margin: 50px auto 0;
+}
+
+.staff-profile {
+    margin: 0 0 40px 0;
+}
+
+.staff-image {
+    height: 275px;
+    width: 415px;
+    border: 1px dashed #000;
+    border-radius: 5px;
+}
+
+.staff-description {
+    width: 415px;
+}
+
+.staff-name {
+    font: bold 16px arial, verdana;
+    color: #8dc63f;
+}
+
+.staff-title {
+    font: bold 11px arial, verdana;
+    color: #000;
+}
+
+.staff-bio {
+    margin: 10px 0 0 0;
+    font: 14px arial, verdana;
+}
+
+#tripsDescription {
+    margin: 30px auto 0;
+}
+
+#tripsSchedule {
+    margin: 40px auto;
+}
+
+#tripsSchedule h3 {
+    margin: 0 0 10px 0;
+}
+
+#schedule {
+    width: 900px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border: 1px dashed #5f5f5f;
+}
+
+#schedule tr {
+    background: #fff;
+}
+
+#schedule th, #schedule td {
+    padding: 5px;
+    text-align: left;
+}
+
+#schedule .alternate td {
+    background: #e5e5e5;
+}
+
+#tripFeeInformation {
+    margin: 0 auto 40px;
+}
+
+ul#tripExpenses {
+    list-style: none;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+ul#tripExpenses li:before {
+    content: "- ";
+}
+
+#transportationHelp {
+    font: 22px arial, verdana;
+    width: 730px;
+    margin: 40px auto 0;
+}
+
+#transportationHelp a {
+    color: #8dc63f;
+    text-decoration: underline;
+}
+
+.video-label {
+    font: 16px arial, verdana;
+    width: 200px;
+    margin: 10px auto 0;
+}
+
 /* Buttons
 -----------------------------------------------------------*/
 .footer-button {
@@ -679,76 +819,6 @@ padder div if you do not want a sticky footer */
 	margin: 10px 0 0 0;
 	text-align: center;
 	color: #fff;
-}
-
-#financeDescription {
-    margin: 40px auto 0;
-}
-
-#financeInformation {
-    margin: 20px auto 75px;
-    width: 900px
-}
-
-#financeInformation .large-h-divider-dark {
-    width: 900px;
-    margin: 40px 0 0 0;
-}
-
-#recentFinances {
-    margin: 60px 0 0 0;
-    width: 380px;
-}
-
-#recentFinances #recentFinancesTitle {
-    font: 24px arial, verdana;
-}
-
-#recentFinances #recentFinancesDescription {
-    font: 16px arial, verdana;
-}
-
-#recentFinances > * {
-    margin: 10px 0;
-}
-
-#downloadFinances {
-    margin: 30px 0 0 0;
-    width: 100%;
-}
-
-#staffProfiles {
-    margin: 50px auto 0;
-}
-
-.staff-profile {
-    margin: 0 0 40px 0;
-}
-
-.staff-image {
-    height: 275px;
-    width: 415px;
-    border: 1px dashed #000;
-    border-radius: 5px;
-}
-
-.staff-description {
-    width: 415px;
-}
-
-.staff-name {
-    font: bold 16px arial, verdana;
-    color: #8dc63f;
-}
-
-.staff-title {
-    font: bold 11px arial, verdana;
-    color: #000;
-}
-
-.staff-bio {
-    margin: 10px 0 0 0;
-    font: 14px arial, verdana;
 }
 
 /* Misc.
